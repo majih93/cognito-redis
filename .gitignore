@@ -1,0 +1,41 @@
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+``
+# Python 가상 환경
+venv/
+env/
+.env/
+.venv/
+.venv*
+
+# Log 폴더
+logs/
+
+# IDE 관련 파일
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# FE 관련 파일
+node_modules
+dist
+dev-dist/
+*.local
+
+# debug 시 생성되는 local files (temp yml files)
+*.temp.yml
+
+# indexing_app
+/be_src/apps/indexing_app/venv/
+/be_src/apps/indexing_app/__pycache__/
+/be_src/apps/indexing_app/.idea/
+/be_src/apps/indexing_app/test/
+/be_src/apps/indexing_app/backup/
+/be_src/apps/indexing_app/common/
+/be_src/apps/indexing_app/routers/db_router.py
+/be_src/apps/indexing_app/templates/
+/be_src/apps/indexing_app/data/
